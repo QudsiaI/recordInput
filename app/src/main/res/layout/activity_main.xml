@@ -18,8 +18,9 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Records"
+        android:text="RECORDS"
         android:textSize="24sp" />
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -30,14 +31,20 @@
             android:id="@+id/rec1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="record1"
+            android:text="Record1"
+            android:textSize="24sp" />
+        <TextView
+            android:id="@+id/desc1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Description1"
             android:textSize="24sp" />
         <Button
             android:id="@+id/show"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Show"
-            android:onClick="addNewRecord"/>
+            android:onClick="showRecord"/>
 
     </LinearLayout>
     <LinearLayout
@@ -50,13 +57,20 @@
             android:id="@+id/rec2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="record2"
+            android:text="Record2"
+            android:textSize="24sp" />
+        <TextView
+            android:id="@+id/desc2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Description2"
             android:textSize="24sp" />
         <Button
             android:id="@+id/show2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Show" />
+            android:text="Show"
+            android:onClick="showRecord"/>
 
     </LinearLayout>
     <LinearLayout
@@ -69,13 +83,20 @@
             android:id="@+id/rec3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="record3"
+            android:text="Record3"
+            android:textSize="24sp" />
+        <TextView
+            android:id="@+id/desc3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Description3"
             android:textSize="24sp" />
         <Button
             android:id="@+id/show3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Show" />
+            android:text="Show"
+            android:onClick="showRecord"/>
 
     </LinearLayout>
 

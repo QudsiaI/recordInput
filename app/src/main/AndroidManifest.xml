@@ -12,6 +12,9 @@
         android:theme="@style/Theme.RecordInput"
         tools:targetApi="31">
         <activity
+            android:name=".ShowRecord"
+            android:exported="false" />
+        <activity
             android:name=".NewRecord"
             android:exported="false" />
         <activity

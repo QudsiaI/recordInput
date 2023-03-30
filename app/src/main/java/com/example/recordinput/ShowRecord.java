@@ -7,18 +7,17 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-public class NewRecord extends AppCompatActivity {
+public class ShowRecord extends AppCompatActivity {
 
-    Button addBtn;
+    Button back;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_new_record);
-        addBtn = (Button) findViewById(R.id.addR);
-
+        setContentView(R.layout.activity_show_record);
+        back = (Button) findViewById(R.id.button);
     }
-    public void addRecord(View v){
-        Intent intent=new Intent(this, MainActivity.class);
-        startActivity(intent);
+    public void goBack(View v){
+        Intent i=new Intent(ShowRecord.this, MainActivity.class);
+        startActivity(i);
     }
 }
