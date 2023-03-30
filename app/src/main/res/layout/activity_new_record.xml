@@ -4,9 +4,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".NewRecord"
+    android:gravity="center"
     android:orientation="vertical"
-    android:gravity="center">
+    tools:context=".NewRecord">
 
     <EditText
         android:id="@+id/recordName"
@@ -21,10 +21,11 @@
         android:layout_height="wrap_content"
         android:hint="description"
         android:textSize="20sp" />
+
     <Button
+        android:id="@+id/addR"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/addR"
-        android:text="ADD"
-        android:onClick="addRecord"/>
+        android:onClick="addRecord"
+        android:text="ADD" />
 </LinearLayout>

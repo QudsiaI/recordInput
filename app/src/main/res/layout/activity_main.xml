@@ -4,9 +4,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity"
+    android:gravity="center"
     android:orientation="vertical"
-    android:gravity="center">
+    tools:context=".MainActivity">
 
     <Button
         android:id="@+id/add"
@@ -21,84 +21,75 @@
         android:text="RECORDS"
         android:textSize="24sp" />
 
-    <LinearLayout
+    <GridLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:columnCount="3"
         android:orientation="horizontal"
-        android:gravity="center">
+        android:rowCount="3">
 
         <TextView
             android:id="@+id/rec1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Record1"
+            android:text="Qudsia"
             android:textSize="24sp" />
+
         <TextView
             android:id="@+id/desc1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Description1"
+            android:text="Bscs 6B"
             android:textSize="24sp" />
+
         <Button
             android:id="@+id/show"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Show"
-            android:onClick="showRecord"/>
-
-    </LinearLayout>
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:gravity="center">
+            android:onClick="showRecord"
+            android:text="Show" />
 
         <TextView
             android:id="@+id/rec2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Record2"
+            android:text="Hafsa"
             android:textSize="24sp" />
+
         <TextView
             android:id="@+id/desc2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Description2"
+            android:text="BSCS "
             android:textSize="24sp" />
+
         <Button
             android:id="@+id/show2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Show"
-            android:onClick="showRecord"/>
-
-    </LinearLayout>
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:gravity="center">
+            android:onClick="showRecord"
+            android:text="Show" />
 
         <TextView
             android:id="@+id/rec3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Record3"
+            android:text="Javairia"
             android:textSize="24sp" />
+
         <TextView
             android:id="@+id/desc3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Description3"
+            android:text="CS 6B morn"
             android:textSize="24sp" />
+
         <Button
             android:id="@+id/show3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Show"
-            android:onClick="showRecord"/>
-
-    </LinearLayout>
-
+            android:onClick="showRecord"
+            android:text="Show" />
+    </GridLayout>
 
 </LinearLayout>

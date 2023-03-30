@@ -4,17 +4,17 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".splashActivity"
     android:background="#A354B1"
-    android:gravity="center">
+    android:gravity="center"
+    tools:context=".splashActivity">
 
     <TextView
         android:id="@+id/Name"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="QUDSIA"
-        android:textStyle="bold"
         android:textColor="#FFFFFF"
-        android:textSize="34sp" />
+        android:textSize="34sp"
+        android:textStyle="bold" />
 
 </LinearLayout>

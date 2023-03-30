@@ -10,6 +10,7 @@ import android.widget.Button;
 public class NewRecord extends AppCompatActivity {
 
     Button addBtn;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -17,8 +18,9 @@ public class NewRecord extends AppCompatActivity {
         addBtn = (Button) findViewById(R.id.addR);
 
     }
-    public void addRecord(View v){
-        Intent intent=new Intent(this, MainActivity.class);
+
+    public void addRecord(View v) {
+        Intent intent = new Intent(this, MainActivity.class);
         startActivity(intent);
     }
 }
